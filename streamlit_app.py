@@ -61,4 +61,4 @@ st.markdown("""
   <div style="font-family: 'Open Sans', sans-serif;">
     The quick brown fox jumped over the lazy cat.
   </div>
-""")
+""", unsafe_allow_html=True)
