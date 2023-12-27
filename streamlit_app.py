@@ -9,7 +9,7 @@ st.markdown("""
   """, unsafe_allow_html=True)
 
 st.markdown("""
-  This app is using
+  The following is using
   <h1 style="font-family: 'Open Sans', sans-serif;">
     Open Sans
   </h1>
