@@ -9,5 +9,9 @@ st.markdown("""
   """, unsafe_allow_html=True)
 
 st.markdown("""
-  This app is using the Open Sans font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
+  This app is using
+  <h1 style="text-align: center; font-size:110px; font-family: 'Open Sans', sans-serif; letter-spacing: -0.02em"; font-weight: 700;>
+    Open Sans
+  </h1>
+   font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
 """)
