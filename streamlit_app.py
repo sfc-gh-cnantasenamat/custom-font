@@ -14,4 +14,4 @@ st.markdown("""
     Open Sans
   </h1>
    font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
-""")
+""", unsafe_allow_html=True)
