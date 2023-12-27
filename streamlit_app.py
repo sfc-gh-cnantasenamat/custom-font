@@ -15,6 +15,8 @@ st.markdown("""
   </h1>
   font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
 
+  <hr>
+
   For comparison, the following is not using
   <h1>
     Open Sans
