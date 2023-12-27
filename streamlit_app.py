@@ -72,6 +72,9 @@ with st.expander("See code"):
     ''' unsafe_allow_html=True)
   """)
 
-st.markdown("""
-  The quick brown fox jumped over the lazy cat.
-""")
+st.markdown("The quick brown fox jumped over the lazy cat.")
+
+with st.expander("See code"):
+  st.code("""
+    st.markdown('The quick brown fox jumped over the lazy cat.')
+  """)
