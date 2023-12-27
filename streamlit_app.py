@@ -40,7 +40,6 @@ with st.expander("See code"):
   """)
 
 st.markdown("""
-  For comparison, the following is Streamlit's default font style:
   <h1>
     Open Sans
   </h1>
