@@ -14,11 +14,23 @@ st.markdown("""
     Open Sans
   </h1>
   font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
+""", unsafe_allow_html=True)
 
-  <hr>
+st.code("""
+<h1 style="font-family: 'Open Sans', sans-serif;">
+    Open Sans
+</h1>
+""")
 
+st.markdown("""
   For comparison, the following is not using
   <h1>
     Open Sans
   </h1>
 """, unsafe_allow_html=True)
+
+st.code("""
+<h1>
+  Open Sans
+</h1>
+""")
