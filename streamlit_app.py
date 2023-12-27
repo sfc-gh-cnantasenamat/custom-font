@@ -22,7 +22,7 @@ with st.expander("See code"):
 
 st.header("Step 2 - Using the font")
 
-st.subheader("Displaying H1 heading")
+st.subheader("Displaying new font in H1 heading")
 
 st.markdown("""
   <h1 style="font-family: 'Open Sans', sans-serif;">
@@ -53,4 +53,12 @@ with st.expander("See code"):
         Open Sans
       </h1>
     ''')
+""")
+
+st.subheader("Displaying new font in normal text")
+
+st.markdown("""
+  <div style="font-family: 'Open Sans', sans-serif;">
+    The quick brown fox jumped over the lazy cat.
+  </div>
 """)
