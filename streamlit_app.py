@@ -13,5 +13,10 @@ st.markdown("""
   <h1 style="text-align: center; font-size:110px; font-family: 'Open Sans', sans-serif; letter-spacing: -0.02em"; font-weight: 700;>
     Open Sans
   </h1>
-   font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
+  font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
+
+  For comparison, the following is not using
+  <h1>
+    Open Sans
+  </h1>
 """, unsafe_allow_html=True)
