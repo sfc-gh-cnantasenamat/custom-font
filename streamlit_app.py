@@ -18,29 +18,34 @@ st.markdown('''
 """)
 
 st.header("Step 2 - Use the font")
+
+st.markdown("We're going to use fonts from the Google API: https://fonts.googleapis.com/css?family=Open+Sans")
+
 st.markdown("""
-  The following is using
   <h1 style="font-family: 'Open Sans', sans-serif;">
     Open Sans
   </h1>
-  font style from the Google API: https://fonts.googleapis.com/css?family=Open+Sans
 """, unsafe_allow_html=True)
 
 st.code("""
-<h1 style="font-family: 'Open Sans', sans-serif;">
+st.markdown('''
+  <h1 style="font-family: 'Open Sans', sans-serif;">
     Open Sans
-</h1>
+  </h1>
+''', unsafe_allow_html=True)
 """)
 
 st.markdown("""
-  For comparison, the following is not using
+  For comparison, the following is Streamlit's default font style:
   <h1>
     Open Sans
   </h1>
 """, unsafe_allow_html=True)
 
 st.code("""
+st.markdown('''
 <h1>
   Open Sans
 </h1>
+''')
 """)
