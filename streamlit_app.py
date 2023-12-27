@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('🎈 Custom font style')
 
-st.header("Step 1 - Import font")
+st.header("Step 1 - Importing the font")
 st.markdown("We're going to use fonts from the Google API: https://fonts.googleapis.com/css?family=Open+Sans")
 
 st.markdown("""
@@ -20,7 +20,9 @@ with st.expander("See code"):
     ''', unsafe_allow_html=True)
   """)
 
-st.header("Step 2 - Use the font")
+st.header("Step 2 - Using the font")
+
+st.subheader("Displaying H1 heading")
 
 st.markdown("""
   <h1 style="font-family: 'Open Sans', sans-serif;">
